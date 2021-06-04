@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Chango&family=Roboto:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.all {
+  overflow-x: hidden;
+}
+body {
+  font-family: "Chango", cursive;
+}
+.navbar {
+  background: rgba(87, 6, 6, 0.849) center/cover;
+}
+
+.navbar-brand img {
+  margin-left: 30px;
+  height: 50px;
+  width: 200px;
+}
+.navbar-toggler {
+  border: 5px solid;
+}
+.navbar-nav {
+  padding-left: 200px;
+}
+.nav-item {
+  padding-right: 190px;
+}
+
+h1 {
+  font-family: "Satisfy", cursive;
+  text-align: center;
+  color: rgb(243, 235, 243);
+  font-size: 2rem;
+  padding-top: 20px;
+}
+
+h2 {
+  margin-top: 30px;
+  text-align: center;
+  color: rgba(17, 16, 16, 0.801);
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+h4 {
+  padding-top: 30px;
+  color: rgb(155, 24, 24);
+  font-size: 1.2rem;
+}
+p {
+  font-family: "Roboto", sans-serif;
+}
+p,
+h3 {
+  text-align: left;
+}
+#addBottle {
+  margin: 43%;
+}
+/* ************************************************************************** */
+
+.bg-accueil {
+  height: 100vh;
+  /* width: auto; */
+  background: url(./assets/img/imgCave/bg-header.jpg) center/cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+main {
+  background: url(./assets/img/imgCave/background-2389460_1280.jpg) center/cover
+    fixed;
+  margin: -60px 0 0;
+}
+
+/***************************************CARDS-BOTTLES***********************************/
+#bottles {
+  margin-top: 60px;
+}
+
+.card {
+  background: rgba(231, 206, 174, 0.808);
+  border-radius: 10px;
+  box-shadow: rgb(218 224 229) 0px 0px 6px 4px;
+  margin: 30px 60px 30px 60px;
+  padding: 10px 10px;
+}
+.card {
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+}
+.vide {
+  padding-bottom: 20px;
+}
+form {
+  text-align: end;
+  width: 60%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.button-container a {
+  text-decoration: none;
+}
+.oui {
+  border-radius: 1px;
+  border: solid thin #0a0a0a;
+  background: #f8efef;
+  padding: 3px 8px;
+  margin: 2px;
+  color: rgb(148, 33, 33);
+}
+.non {
+  border-radius: 1px;
+  border: solid thin #0a0a0a;
+  background: #f8efef;
+  padding: 3px 8px;
+  margin: 2px;
+  color: rgb(54, 151, 9);
+}
+/* ***************************************************pages*********************************** */
+.signUp {
+  background: url("./assets/img/imgCave/bg-pierre.jpg") center/cover fixed;
+  height: 80vh;
+}
+.signIn {
+  background: url("./assets/img/imgCave/bg-paysage.jpg") center/cover fixed;
+  height: 80vh;
+}
+.create {
+  background: url("./assets/img/imgCave/bg-create.jpg") center/cover fixed;
+  height: auto;
+}
+.update {
+  background: url("./assets/img/imgCave/bg-jaune.jpg") center/cover fixed;
+  height: auto;
+}
+/* ********************************************************************************** */
+footer {
+  background: linear-gradient(rgb(41, 40, 40), rgb(85, 12, 12));
+  height: 80px;
+}
+
+/* *************************************responsive*********************************** */
+@media screen and (max-width: 1010px) {
+  .bg-accueil {
+    background: url(./assets/img/imgCave/bg-medium.jpg) center/cover;
+  }
+  h1 {
+    font-size: 1.7rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  p,
+  li {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 1.1rem;
+  }
+
+  h3 {
+    font-size: 0.7rem;
+  }
+  p,
+  li {
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .bg-accueil {
+    background: url(./assets/img/imgCave/bg-min.jpg) center/cover;
+  }
+  h1 {
+    font-size: 0.9rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+
+  h3 {
+    font-size: 0.5rem;
+  }
+  p,
+  li {
+    font-size: 0.4rem;
+  }
+}
